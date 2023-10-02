@@ -1,0 +1,58 @@
+ Lists can be indexed, sliced, arbitrary, nested, mutable
+
+
+# Modifying Elements:
+
+# Create a list of fruits and change the third fruit in the list to "Banana."
+
+fruits = ["Kiwi", "Apple", "Plum", "Strawberry", "Grape"]
+fruits[2] = "Banana"
+
+print(fruits)
+fruits = [1]
+print(fruits)
+
+# Replacing Multiple Elements:
+
+letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w','x', 'y','z']
+
+letters[1] = ["w", 't', 'and']
+
+letters[12:16] = "X"
+
+print(letters)
+# Create a list of letters from 'A' to 'Z' and replace the letters from 'M' to 'P' with 'X'.
+
+# List Concatenation:
+
+# Create two lists of numbers and concatenate them to create a new list.
+
+# Appending Lists
+
+fruits = ["Kiwi", "Apple", "Plum", "Strawberry", "Grape"]
+
+print(fruits)
+
+fruits += ["PawPaw", "Mango"]
+print(fruits)
+
+# append method can only take one argument
+
+fruits.append("Cashew")
+print(fruits)
+
+# extend method can take more than one arguments
+
+fruits.extend(["Coconut", "Honey Due"])
+print(fruits)
+
+# remove methods removes an item from a list
+fruits.remove("Apple")
+print(fruits)
+
+
+# insert method
+
+fruits.insert(0, "Date")
+print(fruits)
+fruits.insert(1, "Watermelon")
